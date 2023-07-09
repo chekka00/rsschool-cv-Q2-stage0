@@ -3,90 +3,118 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon (1).ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
 </head>
 
-<header>
+<header class="header">
     <title>My cv</title>
+        <nav class="nav">
+            <ul class="nav-list">
+                 <li class="nav-item"><a href="#profile" class="nav-link"> Profile</a> </li>
+                 <li class="nav-item"><a href="#work-experience" class="nav-link"> Work experience</a> </li>
+                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                 <li class="nav-item"><a href="#code" class="nav-link"> Code</a> </li>
+                 <li class="nav-item"><a href="#languages" class="nav-link"> Languages</a> </li>
+                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
 </header>
-<body>
-   
-<main>
+<body class="body">
+<main class="main">
     <div>
         <!-- Main section-->
         <h1>Karyna Chekhuta</h1>
     </div>
-    <div> 
-        <h3>Profile</h3>
-        <p> Highly motivated and dedicated Customer Support Agent with a proven track record of delivering exceptional customer
-        service. I am a proactive team player who thrives in a fast-paced and dynamic work environment.</p>
-    </div>
+        <div class="profile-photo">
+            <img src="photo_2021-09-05 11.05.39.jpg" alt="my photo" width="120" height="140">
+        </div>
+                <!-- Contacts section-->
+                <div class="link" id="contacts">
+                    <h2>Contacts</h2>
+                    <div>
+                        <a class="link_email" href="mailto:karyna.chekhuta@gmail.com"> karyna.chekhuta@gmail.com </a>
+                        <a class="link_id" href="http://linkedin.com/in/karyna-chekhuta-110250222"> LinkedIn </a>
+                    </div>
+                </div>
+                <!--Profile section-->
+                    <div class="profile-section" id="profile"> 
+                        <h2>Profile</h2>
+                        <p> Highly motivated and dedicated Customer Support Agent with a proven track record of delivering exceptional customer
+                        service. I am a proactive team player who thrives in a fast-paced and dynamic work environment.</p>
+                    </div>
+
 <!--Experience section-->
 
-<div class="work-experience"> 
+<div class="work-experience-section" id="work-experience"> 
+    <h2>Work Experience</h2>
     <h3> Customer Support Agent </h3>
     <p> November 2021 - Present</p>
-    <div>
-        <ul>
-            <li>Address customer questions, complaints, and comments (email, live chat)</li>
-             <li>Provide outbound services via email</li>
-             <li>Respond to customers within the agreed KPl/SLA</li>
-             <li>Update customers' database</li>
-             <li>Communicate internally with other departments to follow up оn pending issues</li>
-             <li>Prepare daily, weekly, monthly KPI report for the team</li>
-             <li>Collaborate with team/shift leader & colleagues</li>
-        </ul>
+        <div>
+             <ul>
+                <li>Address customer questions, complaints, and comments (email, live chat)</li>
+                <li>Provide outbound services via email</li>
+                <li>Respond to customers within the agreed KPl/SLA</li>
+                <li>Update customers' database</li>
+                <li>Communicate internally with other departments to follow up оn pending issues</li>
+                <li>Prepare daily, weekly, monthly KPI report for the team</li>
+                <li>Collaborate with team/shift leader & colleagues</li>
+            </ul>
+        </div>
  </div>
+
 <!--Skills section-->
-<div class="Skills section">
-<h2> Skills</h2>
-<p>Zendesk, Jira, Data Visualisation, Ms Office</p>
-<p>CRM approach, Empathy&Communication, Leadership, Team Player, Adaptability, Troubleshooting, Process Improvement</p>
+<div class="Skills-section" id="skills">
+    <h2> Skills</h2>
+        <p>Zendesk, Jira, Data Visualisation, Ms Office</p>
+        <p>CRM approach, Empathy&Communication, Leadership, Team Player, Adaptability, Troubleshooting, Process Improvement</p>
 </div>
+
+<div class="example-code-section" id="code">
+    <h2>Code</h2>
+        <pre>
+                <code> const square = (num) => {
+                        return num * num;
+                        };
+                </code>
+        </pre>
+</div>
+
 <!--Languages section-->
-<div>
-<h2>Languages</h2>
-<p>Ukrainian</p>
-<p>Russian</p>
-<p>English</p>
-<p> Czech</p>
-</div>
+    <section>
+        <div class="languages-section" id="languages">
+            <h2>Languages</h2>
+                <p>Ukrainian    Native</p>
+                <p>Russian      Native</p>
+                <p>English      B2</p>
+                <p>Czech        B2</p>
+        </div>
+    </section>
 
 <!--Education section-->
-<div>
-    <h2>Education</h2>
-    <h3> V. N. Karazin Kharkiv National University</h3>
-    <p>Bachelor Degree, Translator of English Language</p>
-    <p>(2013-2017)</p>
+    <div class="education-section" id="education">
+        <h2>Education</h2>
+        <h3> V. N. Karazin Kharkiv National University</h3>
+        <p>Bachelor Degree, Translator of English Language</p>
+        <p>(2013-2017)</p>
 
-</div>
+    </div>
 
 </div>
 </main>
 
-<!--Side bar section-->
-<aside>
+<footer class="footer">
     <div>
-        <img src="/photo_2021-09-05 11.05.39.jpg" alt="photo">
+        <a class="footer_git" href="https://github.com/chekka00"> <img src="github-logo.webp" alt="github-logo" width="40" height="40"> </a>
+        <span class="footer_year"> © 2023</span>
+        <a class="footer_rs" href="https://rs.school/js/"> <img src="rs_school_js.svg" alt="rs school logo" width="50" height="70"> </a>
+        
     </div>
-
-    <!-- Contacts section-->
-    <div>
-        <h3>Contacts</h3>
-        <p>Email: karyna.cekhuta@gamil.com</p>
-        <a href="http://linkedin.com/in/karyna-chekhuta-110250222"> LinkedIn</a>
-
-    </div>
-</aside>
-
-<footer>
-<div>
-    <a href="https://github.com/chekka00"> <img src="/github-logo.webp" alt="github-logo" width="40" height="40"> </a> 
-    <a href="https://rs.school/js/"> <img src="/rs_school_js.svg" alt="rs school logo" width="50" height="70" > </a>
-    <p> 2023</p>
-</div>
 </footer>
-
-
 </body>
 
 </html>
