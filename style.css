@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
 }
 
-.body {
+.body-section {
     font-family: 'Roboto';
     font-size: 14p;
     display: flex;
@@ -13,7 +13,6 @@
     margin: 0 auto;
     padding: 0;
     background-color: rgb(227, 227, 226);
-  
 }
 
 .nav {
