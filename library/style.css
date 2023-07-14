@@ -1,0 +1,13 @@
+.welcome-section {}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav-list-link {
+    text-decoration: none;
+}
